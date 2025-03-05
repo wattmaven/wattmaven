@@ -1,0 +1,5 @@
+.docusaurus
+build
+static
+pnpm-lock.yaml
+.turbo

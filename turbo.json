@@ -1,0 +1,19 @@
+{
+  "$schema": "https://turbo.build/schema.json",
+  "globalDependencies": ["**/.env.*local"],
+  "ui": "tui",
+  "globalEnv": ["NODE_ENV", "CI"],
+  "tasks": {
+    "format:check": {},
+    "lint:check": {},
+    "build": {
+      "outputs": [".docusaurus/**", "build/**"]
+    },
+    "dev": {
+      "dependsOn": ["^build"],
+      "outputs": [".docusaurus/**"],
+      "cache": false,
+      "persistent": true
+    }
+  }
+}

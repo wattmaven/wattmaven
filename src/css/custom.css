@@ -1,30 +1,45 @@
-/**
- * Any CSS included here will be global. The classic template
- * bundles Infima by default. Infima is a CSS framework designed to
- * work well for content-centric websites.
- */
+@font-face {
+  font-family: "Inter";
+  font-weight: 100 900;
+  font-display: block;
+  font-style: normal;
+  font-named-instance: Regular;
+  src: url(/assets/fonts/InterVariable.woff2) format("woff2");
+}
 
-/* You can override the default Infima variables here. */
+@font-face {
+  font-family: "Inter";
+  font-weight: 100 900;
+  font-display: block;
+  font-style: italic;
+  font-named-instance: "Italic";
+  src: url(/assets/fonts/InterVariable-Italic.woff2) format("woff2");
+}
+
+html {
+  font-family: "Inter", sans-serif;
+}
+
 :root {
-  --ifm-color-primary: #2e8555;
-  --ifm-color-primary-dark: #29784c;
-  --ifm-color-primary-darker: #277148;
-  --ifm-color-primary-darkest: #205d3b;
-  --ifm-color-primary-light: #33925d;
-  --ifm-color-primary-lighter: #359962;
-  --ifm-color-primary-lightest: #3cad6e;
+  --ifm-color-primary: #5c6600;
+  --ifm-color-primary-dark: #535c00;
+  --ifm-color-primary-darker: #4e5700;
+  --ifm-color-primary-darkest: #404700;
+  --ifm-color-primary-light: #657000;
+  --ifm-color-primary-lighter: #6a7500;
+  --ifm-color-primary-lightest: #788500;
   --ifm-code-font-size: 95%;
   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.1);
 }
 
-/* For readability concerns, you should choose a lighter palette in dark mode. */
-[data-theme='dark'] {
-  --ifm-color-primary: #25c2a0;
-  --ifm-color-primary-dark: #21af90;
-  --ifm-color-primary-darker: #1fa588;
-  --ifm-color-primary-darkest: #1a8870;
-  --ifm-color-primary-light: #29d5b0;
-  --ifm-color-primary-lighter: #32d8b4;
-  --ifm-color-primary-lightest: #4fddbf;
+[data-theme="dark"] {
+  --ifm-color-primary: #eeff99;
+  --ifm-color-primary-dark: #e7ff70;
+  --ifm-color-primary-darker: #e4ff5c;
+  --ifm-color-primary-darkest: #daff1f;
+  --ifm-color-primary-light: #f5ffc2;
+  --ifm-color-primary-lighter: #f8ffd6;
+  --ifm-color-primary-lightest: #ffffff;
+  --ifm-background-color: #0a0706;
   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
 }

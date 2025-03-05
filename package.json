@@ -1,8 +1,19 @@
 {
-  "name": "wattmaven",
+  "name": "@wattmaven/wattmaven",
   "version": "0.0.0",
   "private": true,
   "scripts": {
+    "install:hooks": "lefthook install",
+    "commit": "commit",
+    "commitlint": "commitlint",
+    "format:check:cspell": "cspell 'blog/**/*.md' 'docs/**/*.md' 'src/pages/**/*.md' --config cpsell.json",
+    "format:check:prettier": "prettier --check .",
+    "format:fix:prettier": "prettier --write .",
+    "format:check": "run-s format:check:*",
+    "format:fix": "run-s format:fix:*",
+    "lint:check": "eslint . --max-warnings 0",
+    "lint:fix": "eslint . --fix",
+    "fix": "run-s *:fix",
     "docusaurus": "docusaurus",
     "start": "docusaurus start",
     "build": "docusaurus build",
@@ -12,7 +23,9 @@
     "serve": "docusaurus serve",
     "write-translations": "docusaurus write-translations",
     "write-heading-ids": "docusaurus write-heading-ids",
-    "typecheck": "tsc"
+    "typecheck": "tsc",
+    "pre-commit-tasks": "turbo format:check lint:check build",
+    "ci:smoke-test": "turbo format:check lint:check build"
   },
   "dependencies": {
     "@docusaurus/core": "3.7.0",
@@ -24,10 +37,25 @@
     "react-dom": "^19.0.0"
   },
   "devDependencies": {
+    "@commitlint/cli": "^19.8.0",
+    "@commitlint/config-conventional": "^19.8.0",
+    "@commitlint/prompt-cli": "^19.8.0",
+    "@commitlint/types": "^19.8.0",
     "@docusaurus/module-type-aliases": "3.7.0",
     "@docusaurus/tsconfig": "3.7.0",
     "@docusaurus/types": "3.7.0",
-    "typescript": "~5.6.2"
+    "cspell": "^8.17.5",
+    "eslint": "^9.22.0",
+    "eslint-config-prettier": "^10.1.1",
+    "eslint-plugin-prettier": "^5.2.3",
+    "globals": "^16.0.0",
+    "lefthook": "^1.11.3",
+    "npm-run-all2": "^7.0.2",
+    "prettier": "^3.5.3",
+    "prettier-plugin-organize-imports": "^4.1.0",
+    "turbo": "^2.4.4",
+    "typescript": "~5.6.2",
+    "typescript-eslint": "^8.26.0"
   },
   "browserslist": {
     "production": [
@@ -43,5 +71,6 @@
   },
   "engines": {
     "node": ">=18.0"
-  }
+  },
+  "packageManager": "pnpm@9.15.4"
 }
