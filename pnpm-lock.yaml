@@ -55,8 +55,8 @@ importers:
         specifier: 9.23.0
         version: 9.23.0
       cspell:
-        specifier: 8.17.5
-        version: 8.17.5
+        specifier: 8.18.0
+        version: 8.18.0
       eslint:
         specifier: 9.23.0
         version: 9.23.0(jiti@2.4.2)
@@ -64,14 +64,14 @@ importers:
         specifier: 10.1.1
         version: 10.1.1(eslint@9.23.0(jiti@2.4.2))
       eslint-plugin-prettier:
-        specifier: 5.2.4
-        version: 5.2.4(@types/eslint@9.6.1)(eslint-config-prettier@10.1.1(eslint@9.23.0(jiti@2.4.2)))(eslint@9.23.0(jiti@2.4.2))(prettier@3.5.3)
+        specifier: 5.2.5
+        version: 5.2.5(@types/eslint@9.6.1)(eslint-config-prettier@10.1.1(eslint@9.23.0(jiti@2.4.2)))(eslint@9.23.0(jiti@2.4.2))(prettier@3.5.3)
       globals:
         specifier: 16.0.0
         version: 16.0.0
       lefthook:
-        specifier: 1.11.4
-        version: 1.11.4
+        specifier: 1.11.5
+        version: 1.11.5
       npm-run-all2:
         specifier: 7.0.2
         version: 7.0.2
@@ -814,28 +814,28 @@ packages:
     resolution: {integrity: sha512-LRjP623jPyf3Poyfb0ohMj8I3ORyBDOwXAgxxVPbSD0unJuW2mJWeiRfaQinjtccMqC5Wy1HOMfa4btKjbNxbg==}
     engines: {node: '>=v18'}
 
-  '@cspell/cspell-bundled-dicts@8.17.5':
-    resolution: {integrity: sha512-b/Ntabar+g4gsRNwOct909cvatO/auHhNvBzJZfyFQzryI1nqHMaSFuDsrrtzbhQkGJ4GiMAKCXZC2EOdHMgmw==}
+  '@cspell/cspell-bundled-dicts@8.18.0':
+    resolution: {integrity: sha512-c7OkDgtYYg0rvj49YS/QzjKeGg/l/d+DjMDqP8BProhKDhAghCsvc6l3SHCGnvyw42+YSTVdL5uLBIaA1OKBlQ==}
     engines: {node: '>=18'}
 
-  '@cspell/cspell-json-reporter@8.17.5':
-    resolution: {integrity: sha512-+eVFCdnda74Frv8hguHYwDtxvqDuJJ/luFRl4dC5oknPMRab0JCHM1DDYjp3NzsehTex0HmcxplxqVW6QoDosg==}
+  '@cspell/cspell-json-reporter@8.18.0':
+    resolution: {integrity: sha512-glUYtRJ/xIgvCvFqgcF04RJiTFhL95wl1uirP+Qa+oqxvg/zP9zxsZupLD3aeMFhyDpgYwtBiebUmhSqrLDyaw==}
     engines: {node: '>=18'}
 
-  '@cspell/cspell-pipe@8.17.5':
-    resolution: {integrity: sha512-VOIfFdIo3FYQFcSpIyGkqHupOx0LgfBrWs79IKnTT1II27VUHPF+0oGq0WWf4c2Zpd8tzdHvS3IUhGarWZq69g==}
+  '@cspell/cspell-pipe@8.18.0':
+    resolution: {integrity: sha512-bSFncsV16B9nhHJdSMTCzdC0Su/TKs+JGTuCq2UiNi6vWxvsL/S1ueiRb+HT0WYKROwtAeHEKnjlw0G3OBBuFw==}
     engines: {node: '>=18'}
 
-  '@cspell/cspell-resolver@8.17.5':
-    resolution: {integrity: sha512-5MhYInligPbGctWxoklAKxtg+sxvtJCuRKGSQHHA0JlCOLSsducypl780P6zvpjLK59XmdfC+wtFONxSmRbsuA==}
+  '@cspell/cspell-resolver@8.18.0':
+    resolution: {integrity: sha512-kNQJtYYJg6WpLoDUZW8VodovOtKLiDrb+GXmcee01qQmrEPCuub9gwoiRuka0sHI2logz0S8l9eAittClpxReg==}
     engines: {node: '>=18'}
 
-  '@cspell/cspell-service-bus@8.17.5':
-    resolution: {integrity: sha512-Ur3IK0R92G/2J6roopG9cU/EhoYAMOx2um7KYlq93cdrly8RBAK2NCcGCL7DbjQB6C9RYEAV60ueMUnQ45RrCQ==}
+  '@cspell/cspell-service-bus@8.18.0':
+    resolution: {integrity: sha512-yGnb59tUadd1q9dSIvg+Q8yZc7N2ZloZ8Sc5lAfxKOJWUh91ugu2UizmL4lm82vDrOevL3kryiauVTsjoS+UOg==}
     engines: {node: '>=18'}
 
-  '@cspell/cspell-types@8.17.5':
-    resolution: {integrity: sha512-91y2+0teunRSRZj940ORDA3kdjyenrUiM+4j6nQQH24sAIAJdRmQl2LG3eUTmeaSReJGkZIpnToQ6DyU5cC88Q==}
+  '@cspell/cspell-types@8.18.0':
+    resolution: {integrity: sha512-z7ETwulTCAHpSNBqwD5d3Uoui4ClD+tfREoD0cKd9uMbLtN9W/WMVQAGDWJpOCUFrWsGYYM3/3/ob2oZhwdQag==}
     engines: {node: '>=18'}
 
   '@cspell/dict-ada@4.1.0':
@@ -996,8 +996,8 @@ packages:
   '@cspell/dict-shell@1.1.0':
     resolution: {integrity: sha512-D/xHXX7T37BJxNRf5JJHsvziFDvh23IF/KvkZXNSh8VqcRdod3BAz9VGHZf6VDqcZXr1VRqIYR3mQ8DSvs3AVQ==}
 
-  '@cspell/dict-software-terms@4.2.5':
-    resolution: {integrity: sha512-CaRzkWti3AgcXoxuRcMijaNG7YUk/MH1rHjB8VX34v3UdCxXXeqvRyElRKnxhFeVLB/robb2UdShqh/CpskxRg==}
+  '@cspell/dict-software-terms@5.0.2':
+    resolution: {integrity: sha512-aCzP+M0WXRLYXTriDMZygUe5s4jKyau/nCA6gBGt4EoHfXn+Ua/+DrW766oXOkkESIlqTBtRgb9gWwQvUdOXSQ==}
 
   '@cspell/dict-sql@2.2.0':
     resolution: {integrity: sha512-MUop+d1AHSzXpBvQgQkCiok8Ejzb+nrzyG16E8TvKL2MQeDwnIvMe3bv90eukP6E1HWb+V/MA/4pnq0pcJWKqQ==}
@@ -1017,20 +1017,20 @@ packages:
   '@cspell/dict-vue@3.0.4':
     resolution: {integrity: sha512-0dPtI0lwHcAgSiQFx8CzvqjdoXROcH+1LyqgROCpBgppommWpVhbQ0eubnKotFEXgpUCONVkeZJ6Ql8NbTEu+w==}
 
-  '@cspell/dynamic-import@8.17.5':
-    resolution: {integrity: sha512-tY+cVkRou+0VKvH+K1NXv8/R7mOlW3BDGSs9fcgvhatj0m00Yf8blFC7tE4VVI9Qh2bkC/KDFqM24IqZbuwXUQ==}
+  '@cspell/dynamic-import@8.18.0':
+    resolution: {integrity: sha512-TPdY/x9l0DAWCSI8iXDEQSl0xlB9qSbEqIv3UYVpWqbQYCY7MdA15bmai8uKt08sZ8F9L6nYHPtbOGFExHvoSw==}
     engines: {node: '>=18.0'}
 
-  '@cspell/filetypes@8.17.5':
-    resolution: {integrity: sha512-Fj6py2Rl+FEnMiXhRQUM1A5QmyeCLxi6dY/vQ0qfH6tp6KSaBiaC8wuPUKhr8hKyTd3+8lkUbobDhUf6xtMEXg==}
+  '@cspell/filetypes@8.18.0':
+    resolution: {integrity: sha512-Qd+Fc9CfkCm4Kufe/H8jCLe5px3PwiKmJgdiZ6FJ0i06MU+0XHZGmzWayrL+EoTqfbQA3jLkvnSgWwF0C6Ci6Q==}
     engines: {node: '>=18'}
 
-  '@cspell/strong-weak-map@8.17.5':
-    resolution: {integrity: sha512-Z4eo+rZJr1086wZWycBiIG/n7gGvVoqn28I7ZicS8xedRYu/4yp2loHgLn4NpxG3e46+dNWs4La6vinod+UydQ==}
+  '@cspell/strong-weak-map@8.18.0':
+    resolution: {integrity: sha512-u8j+1JsnzJv10c7KaGzCdp8mJ3IL0tJ601+ySdebqVL4VNVKE1OcEV+sYxMjrXbeXkPGlpSwr+yDKMW1WHaC7A==}
     engines: {node: '>=18'}
 
-  '@cspell/url@8.17.5':
-    resolution: {integrity: sha512-GNQqST7zI85dAFVyao6oiTeg5rNhO9FH1ZAd397qQhvwfxrrniNfuoewu8gPXyP0R4XBiiaCwhBL7w9S/F5guw==}
+  '@cspell/url@8.18.0':
+    resolution: {integrity: sha512-jbo66L7Y5WImty4o2s5sL6LwTSHS6XjZDKEUayqxILyNb5XHKRUinyII1/EpglFRi9n7G5w4t714/Aeg1Y90Vg==}
     engines: {node: '>=18.0'}
 
   '@csstools/cascade-layer-name-parser@2.0.4':
@@ -2529,42 +2529,42 @@ packages:
     resolution: {integrity: sha512-x8dy3RnvYdlUcPOjkEHqozhiwzKNSq7GcPuXFbnyMOCHxX8V3OgIg/pYuabl2sbUPfIJaeAQB7PMOK8DFIdoRA==}
     engines: {node: '>=12'}
 
-  cspell-config-lib@8.17.5:
-    resolution: {integrity: sha512-XDc+UJO5RZ9S9e2Ajz332XjT7dv6Og2UqCiSnAlvHt7t/MacLHSPARZFIivheObNkWZ7E1iWI681RxKoH4o40w==}
+  cspell-config-lib@8.18.0:
+    resolution: {integrity: sha512-Y0hos8IS1rzmU9lTl6v1q6MBr6v9nhJy5IacZXSJhBSTHRYemsvICTnn+PtksUFgrEEqWusOdAsgBhYV0nlSuw==}
     engines: {node: '>=18'}
 
-  cspell-dictionary@8.17.5:
-    resolution: {integrity: sha512-O/Uuhv1RuDu+5WYQml0surudweaTvr+2YJSmPSdlihByUSiogCbpGqwrRow7wQv/C5p1W1FlFjotvUfoR0fxHA==}
+  cspell-dictionary@8.18.0:
+    resolution: {integrity: sha512-yf7anUDHYFPuQ53619BILYswm4E08NzyNPO1cF0GyqGe5ZTTHf/rCNYcuZHtQ7yKmQuC/K8/y2kEeLsqNa0p6A==}
     engines: {node: '>=18'}
 
-  cspell-gitignore@8.17.5:
-    resolution: {integrity: sha512-I27fgOUZzH14jeIYo65LooB60fZ42f6OJL1lOR9Mk6IrIlDyUtzherGR+xx5KshK2katYkX42Qu4zsVYM6VFPA==}
-    engines: {node: '>=18'}
-    hasBin: true
-
-  cspell-glob@8.17.5:
-    resolution: {integrity: sha512-OXquou7UykInlGV5et5lNKYYrW0dwa28aEF995x1ocANND7o0bbHmFlbgyci/Lp4uFQai8sifmfFJbuIg2IC/A==}
-    engines: {node: '>=18'}
-
-  cspell-grammar@8.17.5:
-    resolution: {integrity: sha512-st2n+FVw25MvMbsGb3TeJNRr6Oih4g14rjOd/UJN0qn+ceH360SAShUFqSd4kHHu2ADazI/TESFU6FRtMTPNOg==}
+  cspell-gitignore@8.18.0:
+    resolution: {integrity: sha512-HYWAK7282o9CkcMwqC3w1wNjgae1v4CMgzF3ptpyBonjISkj1GdFGMno4Gu2uW43aKGTmyj4Fi9J94UZvzZa4w==}
     engines: {node: '>=18'}
     hasBin: true
 
-  cspell-io@8.17.5:
-    resolution: {integrity: sha512-oevM/8l0s6nc1NCYPqNFumrW50QSHoa6wqUT8cWs09gtZdE2AWG0U6bIE8ZEVz6e6FxS+6IenGKTdUUwP0+3fg==}
+  cspell-glob@8.18.0:
+    resolution: {integrity: sha512-ox3ygu5+3tXR3+XRbYJy/z+YK1zo4TFQFkvUEr+aV8Ogyvgm7qE9uTaFz6krkkMLNG6l8EZ7mJtdn0ZsXF/WKQ==}
     engines: {node: '>=18'}
 
-  cspell-lib@8.17.5:
-    resolution: {integrity: sha512-S3KuOrcST1d2BYmTXA+hnbRdho5n3w5GUvEaCx3QZQBwAPfLpAwJbe2yig1TxBpyEJ5LqP02i/mDg1pUCOP0hQ==}
+  cspell-grammar@8.18.0:
+    resolution: {integrity: sha512-/h8gLULvH+P+8N/cmIx8M85sqlER6AyO/RoCVudfq7lTkFneXXKmCoHSA2YQbod9ZSjL+voivBokN2yjMR+XEA==}
+    engines: {node: '>=18'}
+    hasBin: true
+
+  cspell-io@8.18.0:
+    resolution: {integrity: sha512-W6CfXY5dlGTd6XWgHl4B2qLD/gla9TXDVdSo3ViCMJoVu82UQD8b4mir5RfHqXiMrz7ItDeUy9BxFN42VB2YcA==}
     engines: {node: '>=18'}
 
-  cspell-trie-lib@8.17.5:
-    resolution: {integrity: sha512-9hjI3nRQxtGEua6CgnLbK3sGHLx9dXR/BHwI/csRL4dN5GGRkE5X3CCoy1RJVL7iGFLIzi43+L10xeFRmWniKw==}
+  cspell-lib@8.18.0:
+    resolution: {integrity: sha512-346CAY12pVk40FWnfPOwajKug61EeawW3QMtJE/f6rMYGAjGxGExhZnl6eR/KuCMt/w60kqQMSjGDw2zJjJqUw==}
     engines: {node: '>=18'}
 
-  cspell@8.17.5:
-    resolution: {integrity: sha512-l3Cfp87d7Yrodem675irdxV6+7+OsdR+jNwYHe33Dgnd6ePEfooYrvmfGdXF9rlQrNLUQp/HqYgHJzSq19UEsg==}
+  cspell-trie-lib@8.18.0:
+    resolution: {integrity: sha512-zhrCAHyQ2uiGpFdp6E336/L2oDTh/0fM22VpGbkBS4uYKqG9jMy4eUZdSKS8Lg3St4YdGK14J7dv/PiMLqqxlw==}
+    engines: {node: '>=18'}
+
+  cspell@8.18.0:
+    resolution: {integrity: sha512-+6lJaR4zI/250vAR3qXwRj9O80Q4dHUuJWVXCZQV2L6HdF+s5ThS7+HYmE5zdf1YpPCtYJJ/6stkKsdUCQtkTA==}
     engines: {node: '>=18'}
     hasBin: true
 
@@ -2944,13 +2944,13 @@ packages:
     peerDependencies:
       eslint: '>=7.0.0'
 
-  eslint-plugin-prettier@5.2.4:
-    resolution: {integrity: sha512-SFtuYmnhwYCtuCDTKPoK+CEzCnEgKTU2qTLwoCxvrC0MFBTIXo1i6hDYOI4cwHaE5GZtlWmTN3YfucYi7KJwPw==}
+  eslint-plugin-prettier@5.2.5:
+    resolution: {integrity: sha512-IKKP8R87pJyMl7WWamLgPkloB16dagPIdd2FjBDbyRYPKo93wS/NbCOPh6gH+ieNLC+XZrhJt/kWj0PS/DFdmg==}
     engines: {node: ^14.18.0 || >=16.0.0}
     peerDependencies:
       '@types/eslint': '>=8.0.0'
       eslint: '>=8.0.0'
-      eslint-config-prettier: '*'
+      eslint-config-prettier: '>= 7.0.0 <10.0.0 || >=10.1.0'
       prettier: '>=3.0.0'
     peerDependenciesMeta:
       '@types/eslint':
@@ -3153,10 +3153,6 @@ packages:
   find-cache-dir@4.0.0:
     resolution: {integrity: sha512-9ZonPT4ZAK4a+1pUPVPZJapbi7O5qbbJPdYw/NOQWZZbVLdDTYM3A4R9z/DpAM08IDaFGsvPgiGZ82WEwUDWjg==}
     engines: {node: '>=14.16'}
-
-  find-up-simple@1.0.1:
-    resolution: {integrity: sha512-afd4O7zpqHeRyg4PfDQsXmlDe2PfdHtJt6Akt8jOWaApLOZk5JXs6VMR29lz03pRe9mpykrRCYIYxaJYcfpncQ==}
-    engines: {node: '>=18'}
 
   find-up@3.0.0:
     resolution: {integrity: sha512-1yD6RmLI1XBfxugvORwlck6f75tYL+iR0jqwsOrOxMZyGYqUuDhJ0l4AXdO1iX/FTs9cBAMEk1gWSEx1kSbylg==}
@@ -3834,58 +3830,58 @@ packages:
   launch-editor@2.10.0:
     resolution: {integrity: sha512-D7dBRJo/qcGX9xlvt/6wUYzQxjh5G1RvZPgPv8vi4KRU99DVQL/oW7tnVOCCTm2HGeo3C5HvGE5Yrh6UBoZ0vA==}
 
-  lefthook-darwin-arm64@1.11.4:
-    resolution: {integrity: sha512-/qHQzp27vjEkm93dzqhmYKcol347ZwvLTJ2aFv8D05A3ogAMJEbcMSiUUIQcfKhKtfQ3K64bGqcozdj1n7SJTg==}
+  lefthook-darwin-arm64@1.11.5:
+    resolution: {integrity: sha512-58VgfpwVZou3OcELAo673gwT1Y2iE0W/zdh9sI7/ZJHjjPNGuxHqroI/woB/SzhRjndwKsa2YUaYntb2ZqgyMw==}
     cpu: [arm64]
     os: [darwin]
 
-  lefthook-darwin-x64@1.11.4:
-    resolution: {integrity: sha512-yw9mxNH6Q/6AVcXCs7XaSifBX+Ybc/9IrF5TXeGg2EkM84Nuwc8lQlf73OYvrP1l7WAUO07MiMsthiVHy94GFQ==}
+  lefthook-darwin-x64@1.11.5:
+    resolution: {integrity: sha512-wZBYZWK0CcsHYQJwLHxaitG1LKIPE0s4E4MjB0oGd4DrFGWSmJUSv1q888Rc1515U2L3VS8CH91f1PvOusTURA==}
     cpu: [x64]
     os: [darwin]
 
-  lefthook-freebsd-arm64@1.11.4:
-    resolution: {integrity: sha512-kIpVaHnfpgB1b5KvrkPFESZVzDef0q42nS9Q9bHfXWFsy0TZaDqyVSqbLmT0Rbw68ts4nuLTPI+MaLkS7Nbalw==}
+  lefthook-freebsd-arm64@1.11.5:
+    resolution: {integrity: sha512-fyTZffoe3XaKquQ1gqEybwpSv4z1XRTLkgqYoz3uuY0s/4vcRu1N13egDu5Lqbdm57ps9VWEqYD7wTiHw3ldGA==}
     cpu: [arm64]
     os: [freebsd]
 
-  lefthook-freebsd-x64@1.11.4:
-    resolution: {integrity: sha512-lQ+C5HJCp8ylFMgfuNajEoSo3g2uZI5VdA6D79qJc5QmCG/tm2cmvFjVV9IdTNXTh3PJTCO89q7+ikpJs4Bc2Q==}
+  lefthook-freebsd-x64@1.11.5:
+    resolution: {integrity: sha512-sumvthx/U2R36YfNH/Uhwi77ZC5g1s41xBBjAE9VM6xlQarcw/A/DGPu9OaH8AM0Td089jUStT/8zN85GQfg6Q==}
     cpu: [x64]
     os: [freebsd]
 
-  lefthook-linux-arm64@1.11.4:
-    resolution: {integrity: sha512-/gqeN7Py9uERRPAMAFHyzNtvWDhrSymBYcqX0ppO+UZyd5y9BWXvhn+zyZco92unOBGUKMDeTqHr26WnkpO9gQ==}
+  lefthook-linux-arm64@1.11.5:
+    resolution: {integrity: sha512-DclKoRxDc6NqhPyjuwbA+oOGSkhCZXmHzUdpo/p6Yf4owoJZtcM6yEvWN+77L8N4kUiW2pNoFj61fEZkYCc4pA==}
     cpu: [arm64]
     os: [linux]
 
-  lefthook-linux-x64@1.11.4:
-    resolution: {integrity: sha512-wNwOMKoRQEwZhf2MVI7gCqsQDA6Ewvrk+gW1Sb+tHEgtVoWPhnR3emGWL6PlQZBsxo1vfPgFA269vJ4ukBwV4A==}
+  lefthook-linux-x64@1.11.5:
+    resolution: {integrity: sha512-5omR/uX0TOYJy94uWAeQIO+4HkoQjW425VQ48HtR3aqmODqj1ELYbR8YKtEcYUK+RqIzREG1kBODXmtIsINTdA==}
     cpu: [x64]
     os: [linux]
 
-  lefthook-openbsd-arm64@1.11.4:
-    resolution: {integrity: sha512-DXA5VaXJ/uC1inXs5N/HBf09Jf4XtOowujg75bds4+VFkFVasePqwbH0vRITqYrnhWZYQOWwzbDuPMwC+1mHCw==}
+  lefthook-openbsd-arm64@1.11.5:
+    resolution: {integrity: sha512-i1Ji2+KBQPeqCFaSmoBkGhcREQ+0zocuo24fxj2I5jkEIZFM0+UvwPTSsg6ZwOgftV2IcqRKGE2DbIQN1M+U2A==}
     cpu: [arm64]
     os: [openbsd]
 
-  lefthook-openbsd-x64@1.11.4:
-    resolution: {integrity: sha512-N/xyGDORBzgArkZkecejqSNPAw6wqNWTXma3X1J4Nl3mUp1LA+QA3fXQvcmeTbEQtt3CRYnWJ24Kq3Fn1IG+1w==}
+  lefthook-openbsd-x64@1.11.5:
+    resolution: {integrity: sha512-60XJUYgk4DEoMX1af8b8R3DosneawiHeJR6A3Pa62rfElVL9puqHEdscA9qW5hW9lm/bH6gFs8KB55yqjMmf1g==}
     cpu: [x64]
     os: [openbsd]
 
-  lefthook-windows-arm64@1.11.4:
-    resolution: {integrity: sha512-H+3lm6QzPESedKD5vo3tj3Np2zed/O1IyI+qQfD7/pVF5L9sgft+yFsnd5EpXcorYuyDG9ffjpHHIVl0C5NSXw==}
+  lefthook-windows-arm64@1.11.5:
+    resolution: {integrity: sha512-Ttfwdk9QeoDwvgjS71PocpvwuNnB39+8Az6OuXteWaSn5UA3g+wtD28Bu/BRHseym3RhqXfkYWthii7Vwu7iTQ==}
     cpu: [arm64]
     os: [win32]
 
-  lefthook-windows-x64@1.11.4:
-    resolution: {integrity: sha512-QC1Xp+qZxePDVq43fsYjhuIa+QRDn5qCZ9gWCfzqX7OUgk7IWBU4yaI0DiUjBEci+CZ6vIM1R8HUBwZH7z1eTg==}
+  lefthook-windows-x64@1.11.5:
+    resolution: {integrity: sha512-r5MWvJbnCElXeMzKZ4RTyffqzeIWK1xq526hB/Qt55PfbF8is/caEVoutjhzzhyks2vfXZUwVE7oDYif/co5iA==}
     cpu: [x64]
     os: [win32]
 
-  lefthook@1.11.4:
-    resolution: {integrity: sha512-8Eut/Q3kQpWL4l74lQFsLqBVRJuuChNYOCE+U/FARstPypZCmAN13p2EtGWMSt0nbPRHdvXN1XVcIKHarAFEZA==}
+  lefthook@1.11.5:
+    resolution: {integrity: sha512-iv3pJsfg0zDVqRa+sUsfZ4AsAk2W5KOpouNptLQxFncU5hZa60HfDHIp9pne/E7LoAyzGbwMCGYnBdGpQZc5Pg==}
     hasBin: true
 
   leven@3.1.0:
@@ -7024,7 +7020,7 @@ snapshots:
       '@types/conventional-commits-parser': 5.0.1
       chalk: 5.4.1
 
-  '@cspell/cspell-bundled-dicts@8.17.5':
+  '@cspell/cspell-bundled-dicts@8.18.0':
     dependencies:
       '@cspell/dict-ada': 4.1.0
       '@cspell/dict-al': 1.1.0
@@ -7077,7 +7073,7 @@ snapshots:
       '@cspell/dict-rust': 4.0.11
       '@cspell/dict-scala': 5.0.7
       '@cspell/dict-shell': 1.1.0
-      '@cspell/dict-software-terms': 4.2.5
+      '@cspell/dict-software-terms': 5.0.2
       '@cspell/dict-sql': 2.2.0
       '@cspell/dict-svelte': 1.0.6
       '@cspell/dict-swift': 2.0.5
@@ -7085,19 +7081,19 @@ snapshots:
       '@cspell/dict-typescript': 3.2.0
       '@cspell/dict-vue': 3.0.4
 
-  '@cspell/cspell-json-reporter@8.17.5':
+  '@cspell/cspell-json-reporter@8.18.0':
     dependencies:
-      '@cspell/cspell-types': 8.17.5
+      '@cspell/cspell-types': 8.18.0
 
-  '@cspell/cspell-pipe@8.17.5': {}
+  '@cspell/cspell-pipe@8.18.0': {}
 
-  '@cspell/cspell-resolver@8.17.5':
+  '@cspell/cspell-resolver@8.18.0':
     dependencies:
       global-directory: 4.0.1
 
-  '@cspell/cspell-service-bus@8.17.5': {}
+  '@cspell/cspell-service-bus@8.18.0': {}
 
-  '@cspell/cspell-types@8.17.5': {}
+  '@cspell/cspell-types@8.18.0': {}
 
   '@cspell/dict-ada@4.1.0': {}
 
@@ -7210,7 +7206,7 @@ snapshots:
 
   '@cspell/dict-shell@1.1.0': {}
 
-  '@cspell/dict-software-terms@4.2.5': {}
+  '@cspell/dict-software-terms@5.0.2': {}
 
   '@cspell/dict-sql@2.2.0': {}
 
@@ -7224,16 +7220,16 @@ snapshots:
 
   '@cspell/dict-vue@3.0.4': {}
 
-  '@cspell/dynamic-import@8.17.5':
+  '@cspell/dynamic-import@8.18.0':
     dependencies:
-      '@cspell/url': 8.17.5
+      '@cspell/url': 8.18.0
       import-meta-resolve: 4.1.0
 
-  '@cspell/filetypes@8.17.5': {}
+  '@cspell/filetypes@8.18.0': {}
 
-  '@cspell/strong-weak-map@8.17.5': {}
+  '@cspell/strong-weak-map@8.18.0': {}
 
-  '@cspell/url@8.17.5': {}
+  '@cspell/url@8.18.0': {}
 
   '@csstools/cascade-layer-name-parser@2.0.4(@csstools/css-parser-algorithms@3.0.4(@csstools/css-tokenizer@3.0.3))(@csstools/css-tokenizer@3.0.3)':
     dependencies:
@@ -9500,59 +9496,58 @@ snapshots:
     dependencies:
       type-fest: 1.4.0
 
-  cspell-config-lib@8.17.5:
+  cspell-config-lib@8.18.0:
     dependencies:
-      '@cspell/cspell-types': 8.17.5
+      '@cspell/cspell-types': 8.18.0
       comment-json: 4.2.5
       yaml: 2.7.0
 
-  cspell-dictionary@8.17.5:
+  cspell-dictionary@8.18.0:
     dependencies:
-      '@cspell/cspell-pipe': 8.17.5
-      '@cspell/cspell-types': 8.17.5
-      cspell-trie-lib: 8.17.5
+      '@cspell/cspell-pipe': 8.18.0
+      '@cspell/cspell-types': 8.18.0
+      cspell-trie-lib: 8.18.0
       fast-equals: 5.2.2
 
-  cspell-gitignore@8.17.5:
+  cspell-gitignore@8.18.0:
     dependencies:
-      '@cspell/url': 8.17.5
-      cspell-glob: 8.17.5
-      cspell-io: 8.17.5
-      find-up-simple: 1.0.1
+      '@cspell/url': 8.18.0
+      cspell-glob: 8.18.0
+      cspell-io: 8.18.0
 
-  cspell-glob@8.17.5:
+  cspell-glob@8.18.0:
     dependencies:
-      '@cspell/url': 8.17.5
+      '@cspell/url': 8.18.0
       micromatch: 4.0.8
 
-  cspell-grammar@8.17.5:
+  cspell-grammar@8.18.0:
     dependencies:
-      '@cspell/cspell-pipe': 8.17.5
-      '@cspell/cspell-types': 8.17.5
+      '@cspell/cspell-pipe': 8.18.0
+      '@cspell/cspell-types': 8.18.0
 
-  cspell-io@8.17.5:
+  cspell-io@8.18.0:
     dependencies:
-      '@cspell/cspell-service-bus': 8.17.5
-      '@cspell/url': 8.17.5
+      '@cspell/cspell-service-bus': 8.18.0
+      '@cspell/url': 8.18.0
 
-  cspell-lib@8.17.5:
+  cspell-lib@8.18.0:
     dependencies:
-      '@cspell/cspell-bundled-dicts': 8.17.5
-      '@cspell/cspell-pipe': 8.17.5
-      '@cspell/cspell-resolver': 8.17.5
-      '@cspell/cspell-types': 8.17.5
-      '@cspell/dynamic-import': 8.17.5
-      '@cspell/filetypes': 8.17.5
-      '@cspell/strong-weak-map': 8.17.5
-      '@cspell/url': 8.17.5
+      '@cspell/cspell-bundled-dicts': 8.18.0
+      '@cspell/cspell-pipe': 8.18.0
+      '@cspell/cspell-resolver': 8.18.0
+      '@cspell/cspell-types': 8.18.0
+      '@cspell/dynamic-import': 8.18.0
+      '@cspell/filetypes': 8.18.0
+      '@cspell/strong-weak-map': 8.18.0
+      '@cspell/url': 8.18.0
       clear-module: 4.1.2
       comment-json: 4.2.5
-      cspell-config-lib: 8.17.5
-      cspell-dictionary: 8.17.5
-      cspell-glob: 8.17.5
-      cspell-grammar: 8.17.5
-      cspell-io: 8.17.5
-      cspell-trie-lib: 8.17.5
+      cspell-config-lib: 8.18.0
+      cspell-dictionary: 8.18.0
+      cspell-glob: 8.18.0
+      cspell-grammar: 8.18.0
+      cspell-io: 8.18.0
+      cspell-trie-lib: 8.18.0
       env-paths: 3.0.0
       fast-equals: 5.2.2
       gensequence: 7.0.0
@@ -9562,27 +9557,27 @@ snapshots:
       vscode-uri: 3.1.0
       xdg-basedir: 5.1.0
 
-  cspell-trie-lib@8.17.5:
+  cspell-trie-lib@8.18.0:
     dependencies:
-      '@cspell/cspell-pipe': 8.17.5
-      '@cspell/cspell-types': 8.17.5
+      '@cspell/cspell-pipe': 8.18.0
+      '@cspell/cspell-types': 8.18.0
       gensequence: 7.0.0
 
-  cspell@8.17.5:
+  cspell@8.18.0:
     dependencies:
-      '@cspell/cspell-json-reporter': 8.17.5
-      '@cspell/cspell-pipe': 8.17.5
-      '@cspell/cspell-types': 8.17.5
-      '@cspell/dynamic-import': 8.17.5
-      '@cspell/url': 8.17.5
+      '@cspell/cspell-json-reporter': 8.18.0
+      '@cspell/cspell-pipe': 8.18.0
+      '@cspell/cspell-types': 8.18.0
+      '@cspell/dynamic-import': 8.18.0
+      '@cspell/url': 8.18.0
       chalk: 5.4.1
       chalk-template: 1.1.0
       commander: 13.1.0
-      cspell-dictionary: 8.17.5
-      cspell-gitignore: 8.17.5
-      cspell-glob: 8.17.5
-      cspell-io: 8.17.5
-      cspell-lib: 8.17.5
+      cspell-dictionary: 8.18.0
+      cspell-gitignore: 8.18.0
+      cspell-glob: 8.18.0
+      cspell-io: 8.18.0
+      cspell-lib: 8.18.0
       fast-json-stable-stringify: 2.1.0
       file-entry-cache: 9.1.0
       get-stdin: 9.0.0
@@ -9960,7 +9955,7 @@ snapshots:
     dependencies:
       eslint: 9.23.0(jiti@2.4.2)
 
-  eslint-plugin-prettier@5.2.4(@types/eslint@9.6.1)(eslint-config-prettier@10.1.1(eslint@9.23.0(jiti@2.4.2)))(eslint@9.23.0(jiti@2.4.2))(prettier@3.5.3):
+  eslint-plugin-prettier@5.2.5(@types/eslint@9.6.1)(eslint-config-prettier@10.1.1(eslint@9.23.0(jiti@2.4.2)))(eslint@9.23.0(jiti@2.4.2))(prettier@3.5.3):
     dependencies:
       eslint: 9.23.0(jiti@2.4.2)
       prettier: 3.5.3
@@ -10238,8 +10233,6 @@ snapshots:
     dependencies:
       common-path-prefix: 3.0.0
       pkg-dir: 7.0.0
-
-  find-up-simple@1.0.1: {}
 
   find-up@3.0.0:
     dependencies:
@@ -10951,48 +10944,48 @@ snapshots:
       picocolors: 1.1.1
       shell-quote: 1.8.2
 
-  lefthook-darwin-arm64@1.11.4:
+  lefthook-darwin-arm64@1.11.5:
     optional: true
 
-  lefthook-darwin-x64@1.11.4:
+  lefthook-darwin-x64@1.11.5:
     optional: true
 
-  lefthook-freebsd-arm64@1.11.4:
+  lefthook-freebsd-arm64@1.11.5:
     optional: true
 
-  lefthook-freebsd-x64@1.11.4:
+  lefthook-freebsd-x64@1.11.5:
     optional: true
 
-  lefthook-linux-arm64@1.11.4:
+  lefthook-linux-arm64@1.11.5:
     optional: true
 
-  lefthook-linux-x64@1.11.4:
+  lefthook-linux-x64@1.11.5:
     optional: true
 
-  lefthook-openbsd-arm64@1.11.4:
+  lefthook-openbsd-arm64@1.11.5:
     optional: true
 
-  lefthook-openbsd-x64@1.11.4:
+  lefthook-openbsd-x64@1.11.5:
     optional: true
 
-  lefthook-windows-arm64@1.11.4:
+  lefthook-windows-arm64@1.11.5:
     optional: true
 
-  lefthook-windows-x64@1.11.4:
+  lefthook-windows-x64@1.11.5:
     optional: true
 
-  lefthook@1.11.4:
+  lefthook@1.11.5:
     optionalDependencies:
-      lefthook-darwin-arm64: 1.11.4
-      lefthook-darwin-x64: 1.11.4
-      lefthook-freebsd-arm64: 1.11.4
-      lefthook-freebsd-x64: 1.11.4
-      lefthook-linux-arm64: 1.11.4
-      lefthook-linux-x64: 1.11.4
-      lefthook-openbsd-arm64: 1.11.4
-      lefthook-openbsd-x64: 1.11.4
-      lefthook-windows-arm64: 1.11.4
-      lefthook-windows-x64: 1.11.4
+      lefthook-darwin-arm64: 1.11.5
+      lefthook-darwin-x64: 1.11.5
+      lefthook-freebsd-arm64: 1.11.5
+      lefthook-freebsd-x64: 1.11.5
+      lefthook-linux-arm64: 1.11.5
+      lefthook-linux-x64: 1.11.5
+      lefthook-openbsd-arm64: 1.11.5
+      lefthook-openbsd-x64: 1.11.5
+      lefthook-windows-arm64: 1.11.5
+      lefthook-windows-x64: 1.11.5
 
   leven@3.1.0: {}
 
