@@ -16,8 +16,26 @@
   src: url(/assets/fonts/InterVariable-Italic.woff2) format("woff2");
 }
 
+@font-face {
+  font-family: "Playfair Display";
+  font-weight: 400 900;
+  font-display: block;
+  font-style: normal;
+  font-named-instance: Regular;
+  src: url(/assets/fonts/PlayfairDisplayVariable.ttf) format("ttf");
+}
+
 html {
   font-family: "Inter", sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Playfair Display";
 }
 
 :root {
